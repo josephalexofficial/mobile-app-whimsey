@@ -1,0 +1,26 @@
+name: whimsey_technologies
+description: Whimsey Technologies mobile platform. The Android app for the agency site.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.3
+  shared_preferences: ^2.5.3
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Jost
+      fonts:
+        - asset: assets/fonts/Jost-Variable.ttf
